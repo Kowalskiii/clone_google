@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    color: #3c4043;
+}
+
+body {
+    font-family: Arial;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    color: #000000DE;
+    font-size: 13px;
+}
+
+.menu1,
+.menu2 {
+    display: flex;
+}
+
+.menu_item1 {
+    margin-top: 5px;
+    margin-right: 17px;
+    padding-top: 2px;
+}
+
+.menu_item2 {
+    margin-top: 5px;
+    margin-right: 25px;
+    padding-top: 2px;
+}
+
+.menu_item3 {
+    margin-top: 5px;
+    margin-right: 25px;
+}
+.fotoperfil {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+}
+
+.logo {
+    padding-top: 250px;
+    padding-bottom: 20px;
+}
+
+.barrainput {
+    display: flex;
+    width: 584px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 22px;
+    border: 1px solid #CCC;
+}
+
+
+#searchbar {
+    display: flex;
+    margin-left: 45px;
+    border: none;
+    width: 447px;
+    height: 44px;
+    font-size: 16px;
+    flex-direction: row;
+}
+
+.lupaicone img {
+    width: 20px;
+    height: 20px;
+    margin: 13px;
+}
+
+.teclado img {
+    width: 20px;
+    height: auto;
+    margin: 15px 11px 11px 11px;
+}
+
+.mic img {
+    height: 24px;
+    margin: 10px 11px 11px 11px;
+}
+
+.barra-icones {
+    display: flex;
+    align-items: center;
+    width: 284px;
+    margin-left: 440px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.btnpesquisar,
+.btnestoucomsorte  {
+    background-color: #f8f9fa;
+    margin: 11px 4px;
+    padding: 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.textocentro {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10px;
+}
+
+.textocentro a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #1a0dab;
+}
+
+.textocentro a:hover {
+    text-decoration: underline;
+}
+
+.pais {
+    display: flex;
+    justify-content: start;
+    padding-top: 260px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.rodape {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    border-top: 1px solid #ccc;
+    
+}
+
+.rodape div{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.rodapecont1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodapecont2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
