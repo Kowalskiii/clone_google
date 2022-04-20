@@ -55,36 +55,37 @@ main {
     padding-bottom: 20px;
 }
 
-.barrainput {
+.search_bar {
     display: flex;
-    width: 584px;
+    width: 587px;
     height: 44px;
-    background-color: transparent;
     border-radius: 22px;
-    border: 1px solid #CCC;
+    border: 1px solid #5f6368;
+    align-items: center;
 }
 
+.loupe img {
+        height: 20px;
+        margin-top: 5px;
+}
 
-#searchbar {
-    display: flex;
-    margin-left: 45px;
+.text {
+    flex: 15;
+}
+
+input {
+    width: 95%;
+    margin-left: -10px;
+    background-color: transparent;
     border: none;
-    width: 447px;
-    height: 44px;
-    font-size: 16px;
-    flex-direction: row;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
 }
 
-.lupaicone img {
-    width: 20px;
-    height: 20px;
-    margin: 13px;
-}
-
-.teclado img {
-    width: 20px;
-    height: auto;
-    margin: 15px 11px 11px 11px;
+.keyboard img{
+    width: 19px;
+    height: 11px;
 }
 
 .mic img {
@@ -92,11 +93,9 @@ main {
     margin: 10px 11px 11px 11px;
 }
 
-.barra-icones {
-    display: flex;
-    align-items: center;
-    width: 284px;
-    margin-left: 440px;
+.loupe, .kewyboard, .mic {
+    flex: 1;
+    padding: 0px 15px;
 }
 
 .botoes {
