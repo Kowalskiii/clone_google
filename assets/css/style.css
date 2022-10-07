@@ -140,12 +140,17 @@ input {
     padding-bottom: 20px;
 }
 
+footer {
+    bottom: 0;
+    position: absolute;
+}
+
+
 .rodape {
     font-size: 14px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
     border-top: 1px solid #ccc;
     
 }
